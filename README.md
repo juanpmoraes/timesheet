@@ -32,6 +32,20 @@ Instalalão dos Recursos:
         Acesse o arquivo config.php no diretorio: C:\xampp\htdocs\timesheet\config.php
 
         Edite o campo: $password = 'oracle'; e adicione a sua senha que foi criada na instalação do MySQL
+    
+    Baixe o Composer:
+
+        https://getcomposer.org/ (Seguro)
+
+        Instale-o, e use os segintes comando pelo CMD:
+
+            cd C:\xampp\htdocs\timesheet
+            composer require phpmailer/phpmailer
+            composer require vlucas/phpdotenv
+            composer update
+
+    Subistitua Todas as linhas do arquivo: C:\xampp\php\php.ini
+    Pelas linhas do arquivo: C:\xampp\htdocs\timesheet\php_conf\php_new.ini
 
 # Configuração Timesheet:
 
