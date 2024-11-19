@@ -114,6 +114,5 @@ Data da Publicação: 19/11/2024
 
 
 *********************
-** "Fim do ReadMe" **
+Fim do ReadMe
 *********************
-
