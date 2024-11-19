@@ -57,7 +57,7 @@ if ($result->num_rows > 0) {
     $sheet = $spreadsheet->getActiveSheet();
 
     // Definir cabeçalhos
-    $sheet->setCellValue('A1', 'Relatório de Horas Trabalhadas - Petla DBA');
+    $sheet->setCellValue('A1', 'Relatório de Horas Trabalhadas');
     $sheet->mergeCells('A1:H1'); // Mescla as células para o título
     $sheet->getStyle('A1')->getFont()->setBold(true)->setSize(16);
     $sheet->getStyle('A1')->getAlignment()->setHorizontal('center');
