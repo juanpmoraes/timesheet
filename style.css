@@ -1,0 +1,325 @@
+/* Estilos Globais */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1, h2 {
+    color: #555;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do Container */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do Login */
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container label {
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+.login-container input {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.login-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo do Formulário */
+form {
+    margin: 20px 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea, form select, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    resize: none;
+    height: 100px;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo do Dashboard */
+.dashboard-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.dashboard-container h1 {
+    margin-bottom: 20px;
+}
+
+.dashboard-container .actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboard-container .actions button {
+    flex: 1;
+    margin: 0 5px;
+}
+
+/* Estilo Responsivo */
+@media (max-width: 768px) {
+    .container, .login-container, .dashboard-container {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .dashboard-container .actions {
+        flex-direction: column;
+    }
+
+    .dashboard-container .actions button {
+        margin: 10px 0;
+    }
+}
+
+/* Exportação */
+form h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+form button {
+    width: auto;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+/* Estilo da Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+table a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
+
+/* Botão de Voltar */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para os botões */
+.btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para o botão de logout */
+.btn-logout {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-logout:hover {
+    background-color: #c0392b;
+}
+
+/* Estilo para o formulário de edição */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+form input[type="checkbox"] {
+    margin-bottom: 15px;
+}
+
+a.btn, a.btn-logout {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+a.btn:hover, a.btn-logout:hover {
+    background-color: #45a049;
+}
+
+a.btn-logout {
+    background-color: #e74c3c;
+}
+
+a.btn-logout:hover {
+    background-color: #c0392b;
+}
